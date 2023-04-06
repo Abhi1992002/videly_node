@@ -1,4 +1,3 @@
-
 {
     "jwtPrivateKey": "vidly_jwtPrivateKey",
     "db":"mongodb+srv://abhimanyu1992002:6iQOABvwzPMCDRSl@cluster0.a5blhfo.mongodb.net/test"

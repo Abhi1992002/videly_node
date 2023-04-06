@@ -18,7 +18,8 @@ const logger =  createLogger({
 
 module.exports = function (){
 
-    const db = config.get('db')
+    // const db = config.get('db')
+    const db = process.env.DB
     mongoose.connect(db)
     .then(()=> logger.info(`connected to ${db}...`))
 
