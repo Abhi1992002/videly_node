@@ -1,5 +1,5 @@
-node_modules/
-coverage/
-.vercel
-./config
+node_modules
 .env
+coverage
+.vercel
+config
