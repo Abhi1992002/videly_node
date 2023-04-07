@@ -49,17 +49,17 @@ app.set('views' , './views' ) //default
 
 // we want to morgan only for development period
 
-if(app.get('env') === 'development'){
-    app.use(morgan('tiny'))
-    startupDebugger('Morgan Enabled')
-}
+//if(app.get('env') === 'development'){
+    //app.use(morgan('tiny'))
+  //  startupDebugger('Morgan Enabled')
+//}
 
 // DB work.....
-dbDebugger('connected to the database')
+//dbDebugger('connected to the database')
 
-console.log(`NODE_ENV : ${process.env.NODE_ENV}`)
+// console.log(`NODE_ENV : ${process.env.NODE_ENV}`)
 
-console.log(`app : ${app.get('env')}`)
+// console.log(`app : ${app.get('env')}`)
 
 
 const PORT = process.env.PORT || 3008;
