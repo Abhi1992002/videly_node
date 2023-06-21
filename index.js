@@ -16,14 +16,6 @@ require('./startup/prod')(app)
 
 //mongoose
 
-
-
-
-// const p = Promise.reject(new Error('promise rejected'))
-// p.then(()=>{console.log('error')})
-
-// throw new Error('promise rejected')
-
 //connecting to mongodb database
 
 
